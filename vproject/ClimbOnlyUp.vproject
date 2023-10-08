@@ -1,0 +1,68 @@
+{
+    "packages": [
+        {
+            "desc": {
+                "name": "ClimbOnlyUp",
+                "dirPath": "C:/Users/User/Documents/Fortnite Projects/ClimbOnlyUp/Plugins/ClimbOnlyUp/Content",
+                "settings": {
+                    "versePath": "/localhost/ClimbOnlyUp",
+                    "verseScope": "User",
+                    "role": "Source",
+                    "dependencyPackages": [
+                        "Verse",
+                        "UnrealEngine",
+                        "Fortnite"
+                    ]
+                }
+            },
+            "readOnly": false
+        },
+        {
+            "desc": {
+                "name": "Verse",
+                "dirPath": "C:/Users/User/AppData/Local/UnrealEditorFortnite/Saved/VerseProject/ClimbOnlyUp/Verse",
+                "settings": {
+                    "versePath": "/Verse.org",
+                    "verseScope": "PublicAPI",
+                    "role": "External",
+                    "dependencyPackages": [],
+                    "vniDestDir": "Verse"
+                }
+            },
+            "readOnly": true
+        },
+        {
+            "desc": {
+                "name": "UnrealEngine",
+                "dirPath": "C:/Users/User/AppData/Local/UnrealEditorFortnite/Saved/VerseProject/ClimbOnlyUp/UnrealEngine",
+                "settings": {
+                    "versePath": "/UnrealEngine.com",
+                    "verseScope": "PublicAPI",
+                    "role": "External",
+                    "dependencyPackages": [
+                        "Verse"
+                    ],
+                    "vniDestDir": "UnrealEngine"
+                }
+            },
+            "readOnly": true
+        },
+        {
+            "desc": {
+                "name": "Fortnite",
+                "dirPath": "C:/Users/User/AppData/Local/UnrealEditorFortnite/Saved/VerseProject/ClimbOnlyUp/Fortnite",
+                "settings": {
+                    "versePath": "/Fortnite.com",
+                    "verseScope": "PublicAPI",
+                    "role": "External",
+                    "dependencyPackages": [
+                        "UnrealEngine",
+                        "Verse"
+                    ],
+                    "vniDestDir": "Fortnite"
+                }
+            },
+            "readOnly": true
+        }
+    ]
+}
